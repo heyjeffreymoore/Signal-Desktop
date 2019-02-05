@@ -183,7 +183,7 @@
     },
     events: {
       click: 'onClick',
-      'click #header': 'focusHeader',
+      'click .gutter': 'focusHeader',
       'click .conversation': 'focusConversation',
       'input input.search': 'filterContacts',
     },
