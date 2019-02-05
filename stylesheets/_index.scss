@@ -18,7 +18,15 @@
   overflow: auto;
 }
 
+.gutter.inactive {
+  /* ideally this should be calculated with variables
+  * for now, it is based on the avatar width (48) plus
+  * the padding on both sides (16 + 16) */
+  width: 80px; }
+
 .gutter {
+  transition-duration: 0.25s;
+  
   background-color: $color-gray-02;
 
   ::-webkit-scrollbar-track {
